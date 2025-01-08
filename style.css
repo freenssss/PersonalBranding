@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Heading Styles */
+  h1, h2 {
+    margin: 10px 0;
+  }
+  
+  /* Navigation Styles */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Section Styles */
+  section {
+    margin: 20px 0;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* About Section Styles */
+  section#about p {
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  /* Contact Section Styles */
+  section#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  section#contact input,
+  section#contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  section#contact textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  section#contact button {
+    padding: 10px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  section#contact button:hover {
+    background-color: #3700b3;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Image Styles */
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    section {
+      padding: 15px;
+    }
+  
+    section#contact input,
+    section#contact textarea {
+      font-size: 14px;
+    }
+  
+    section#contact button {
+      font-size: 14px;
+    }
+  }
